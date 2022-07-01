@@ -1,0 +1,518 @@
+/*Highlight Light HEX: 789788*/
+/*Highlight Dark HEX: 172e03*/
+/*Profile Pic Samples*/
+/*8ba691, 789883, 8da794, 6a8a79, 869f8d, 789785*/
+/*Nice Dark green 4c6050*/
+
+html {
+    background-color: #ffffff;
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.titlebox {
+    width: 100%;
+    height: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #172e03;
+    opacity: 0.96;
+
+}
+
+
+.maintitlebox h1 {
+    font-size: 4vw;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #ffffff;
+    border: 0.3vw solid;
+    border-radius: 50px;
+    border-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+   
+
+}
+
+.navbigbox {
+    height: 9vw;
+    width: 100%;
+    
+}
+
+.navigationbox {
+    float: left;
+    width: 100%;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #172e03;
+    margin-bottom: 15px;
+    position: relative;
+    margin: 2em 0;
+    font-size: 1.2vw;
+    
+}
+.navigationbox ul {
+	clear: left;
+	float: right;
+	list-style: none;
+	margin: 10px 0 0 0;
+	padding: 0;
+	position: relative;
+	right: 50%;
+	text-align: center;
+    
+}
+.navigationbox ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+}
+
+.navigationbox ul li a {
+	display:block;
+	margin:0 0 0 1px;
+	padding:5px 30px;
+	font-weight: bold;
+	text-decoration:none;
+	line-height:1.3em;
+}
+
+
+.wrapper {
+    margin: 1%;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 16.66%;
+    height: 10vw;
+    float: left;
+    padding: 1vw 0.5vw 0vw 0.5vw;
+    color: #172e03;
+}
+
+
+.section1box {
+    height: 4vw;
+    width: 100%;
+    
+}
+
+.loader {
+    color: #172e03;
+    font-family: Consolas, Menlo, Monaco, monospace;
+    font-weight: bold;
+    font-size: 2vw;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4vw;
+    border: 5px solid white;
+    
+}
+
+.section2box {
+    height: 10vw;
+    width: 40%;
+    margin: auto;
+    font-size: 1.9vw;
+    font-family: 'Lato', sans-serif;
+    color: #172e03;
+    text-align: center;
+}
+
+
+.valkyrieregistrybox {
+    margin: auto;
+    width: 53%;
+    
+    
+}
+
+
+.valkyrieregistrytext {
+    float: left;
+    margin: 1%;
+    width: 33%;
+   
+    margin-top: 7.5%;
+}
+
+.textdesc1 {
+    font-size: 2vw;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #172e03;
+    background-image: linear-gradient(to right, white 50%, #172e03 50%);
+    background-size: 200%;
+    transition: background-position 0.3s;
+    
+}
+
+.lol {
+    text-decoration: none;
+}
+
+
+.textdesc1:hover {
+    background-position: -100%;
+    color: white;
+}
+
+.textdesc2 {
+    font-size: 1.0vw;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #172e03;
+}
+
+.valkyrieregistryimage {
+    
+    overflow: hidden;
+    margin: 1%;
+  
+}
+
+
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    /*background-color: #172e03;*/
+    height: 8vw;
+    opacity: 0.96;
+}
+/*
+.footerbox {
+    background-color: #172e03;
+    width: 100%;
+    padding: 35px 50px 35px 50px;
+    
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+*/
+.links a {
+    color: #172e03;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+}
+
+.links a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #172e03;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease-out;
+    width: 100%;
+}
+
+.links a:hover:after {
+    width: 100%;
+    transform: scale(1);
+}
+
+/*
+$desktop:1200px;
+$laptop:1024px;
+$tablet:768px;
+$phone:480px;
+*/
+
+
+
+
+/*valkyrie regsitry page*/
+
+
+.valkyriebigbox {
+    width:50%;
+    margin: auto;
+    
+}
+
+.valkimages {
+    width: 100%;
+}
+
+.textundervalk {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    font-size: 1.2vw;
+    letter-spacing: 0.15em;
+    padding-bottom: 3vw;
+    
+}
+
+
+.titleinformation {
+    width: 100%;
+    margin: auto;
+    font-size: 1.8vw;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.extrainfo {
+    padding-left: 2%;
+    font: 1.8vw;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #172e03;
+}
+
+
+h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+    color: #172e03;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+h2 {
+    font-size: 1.5vw;
+}
+
+.paragraph1 {
+    border: solid black 5px;
+}
+
+.manifestobox {
+    width: 50%;
+    margin: auto;
+    font-size: 1.5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+}
+
+.container1 {
+    width: 1105px;
+    margin: 0 auto;
+}
+
+.wrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 0.7vw;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.speccontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.banner1, .banner2 {
+    width: 100%;
+    border: solid white 0.3vw;
+}
+
+.imagescontainer {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box2 {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    border: solid white 0.3vw;
+}
+
+.photocredit {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    color: #172e03;
+    width: 100%;
+    padding: 1vw;
+    font-size: 17px;
+}
+
+table, th, td {
+    border: 0.7px solid black;
+}
+
+th, td {
+    padding: 5px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.box2tables tr td:first-child {
+    width: 35%;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+.historycontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.historytable tr td:first-child {
+    width: 12%;
+}
+
+.aboveyear {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.8vw;
+}
+
+.borderme {
+    
+}
+
+@media only screen and (max-width: 1110px) {
+    .container1 {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .titlebox {
+        height: 18vw;
+    }
+    .maintitlebox h1 {
+        font-size: 5vw;
+    }
+    .navbigbox {
+        height: 17vw;
+    }
+    .navigationbox {
+        font-size: 2.4vw;
+    }
+    .loader {
+        font-size: 3.8vw;
+    }
+    .section2box {
+        height: 20vw;
+        font-size: 3vw;
+        width: 60%;
+    }
+    .valkyrieregistrybox {
+        width: 80%;
+    }
+    .textdesc1 {
+        font-size: 3.2vw;
+    }
+    .textdesc2 {
+        font-size: 1.9vw;
+    }
+    h3 {
+        font-size: 5vw;
+    }
+    h2 {
+        font-size: 3vw;
+    }
+    .titleinformation {
+        font-size: 3.3vw;
+    }
+    .valkyriebigbox {
+        width: 90%;
+    }
+    .textundervalk {
+        font-size: 2.2vw;
+    }
+    .manifestobox {
+        font-size: 3vw;
+        width: 60%;
+    }
+    .box {
+        box-sizing: border-box;
+        width: 33.33%;
+        padding-right: 1%;
+        float: left;
+        height: 12%;
+        padding-top: 30px;
+    }
+    .box1 {
+        box-sizing: border-box;
+        width: 100%;
+        
+        float: left;
+        height: 12%;
+        
+    }
+    .speccontainer {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .historycontainer {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .aboveyear {
+        font-size: 3.5vw;
+    }
+    .photocredit {
+        font-size: 11px;
+    }
+
+
+}
+
+
+
+
+
+
